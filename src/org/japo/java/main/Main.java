@@ -39,8 +39,12 @@ public class Main {
             System.out.print("Introduzca su letra del NIF: ");
             letra = SCN.nextLine().charAt(0);
             /*letraMays transforma el char a Upper Case, hemos modificado también
-            el siguiente System.out cambiando la variable "letra" por "letraMays*/
+            el siguiente System.out cambiando la variable "letra" por "letraMays"
+            
+            En realidad esta siguiente línea es poco útil ya que únicamente
+            cambiando de %c a %C ya saca por consola la letra en mayúsculas.*/
             letraMays = Character.toUpperCase(letra);
+            
             System.out.printf("Letra DNI................. : %c%n", letraMays);
         } catch (Exception e) {
             System.out.println("OOOOOOOPS!");
