@@ -44,8 +44,11 @@ public class Main {
             En realidad esta siguiente línea es poco útil ya que únicamente
             cambiando de %c a %C ya saca por consola la letra en mayúsculas.*/
             letraMays = Character.toUpperCase(letra);
-            
             System.out.printf("Letra DNI................. : %c%n", letraMays);
+
+            //Mostramos línea original modificada.
+            System.out.println("//Mostramos línea original modificada.");
+            System.out.printf("Letra DNI................. : %C%n", letra);
         } catch (Exception e) {
             System.out.println("OOOOOOOPS!");
 
